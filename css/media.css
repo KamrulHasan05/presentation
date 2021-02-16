@@ -1,0 +1,567 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+	/*common*/
+	.choose, .interest, .course, .class, .news, .signup{
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+	.card_body,
+	.choose_first2{
+		text-align: center;
+	}
+	/*header top start*/
+	.cp{
+		padding-right: 12px;
+		padding-left: 12px;
+	}
+	.h_f_m, .h_f_n, .h_s_r, .h_s_l {
+		font-size: 9px;
+	    -webkit-box-shadow: none;
+	    -moz-box-shadow: none;
+	    box-shadow: none;
+	    padding-top: 0px;
+	    padding-bottom: 0px;
+	    text-align: center;
+	}
+	.h_s_r{
+		padding-right: 0px;
+	}
+	/*header top end*/
+	/*header start*/
+	.logo{
+		width: 80%;
+	}
+	.menu li{
+		padding: 0px;
+	}
+	.menu a {
+	    font-size: 14px;
+	    color: #ffffff !important;
+	    padding-left: 0px !important;
+	    padding-right: 0px !important;
+	    border: none;
+	}
+	.d_search_a:hover,
+	.menu a:hover,
+	.nav-link.active2 {
+	    border: none;
+	}
+	.d_search_a{
+		border: none;
+		padding: 0px !important;
+	}
+	.d_search_ul{
+	    top: 150%;
+	    left: 0px;
+	    min-width: 295px;
+	    background-color: transparent;
+	    border: none; 
+	}
+	.f_f{
+		height: 40px;
+	}
+	/*header end*/
+	/*slider start*/
+	.carousel-i2 {
+		background-position: center;
+	}
+	.s_h2 {
+	    margin-top: 60px;
+	    font-size: 25px;
+	}
+	.s_p {
+	    font-size: 16px;
+	    margin: 25px 0;
+	}
+	.s_btn {
+	    margin-bottom: 100px;
+	    width: 140px;
+	    height: 45px;
+	}
+	/*choose start*/
+	.ch_p {
+	     letter-spacing: 0px; 
+	}
+	.ch_head {
+	    font-size: 25px;
+	    margin-bottom: 10px;
+	}
+	.choose_main {
+	    padding-top: 30px;
+	    text-align: center;
+	}
+	.c_m_t {
+	    margin-top: 20px;
+	}
+	.common_title {
+	    font-size: 20px;
+	}
+	.common_para {
+		word-spacing: 0px;
+	    letter-spacing: 0px; 
+	}
+	/* interest start */
+	/* course start */
+	.card_header {
+		padding-top: 25px;
+	}
+	.card_body {
+		margin-top: 10px;
+	}
+	address h1,
+	.quick h2,
+	.c_s_content span,
+	.price p,
+	.card_head{
+		font-size: 20px;
+	}
+	.card_p {
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+	/* class start */
+	.class_first {
+		margin-top: 20px;
+		text-align: center;
+	}
+	.n_heading h2,
+	.class_first h3 {
+		font-size: 25px;
+	}
+	.c_s_content {
+		text-align: left !important;
+	}
+	.class_second img{
+		width: 100%;
+	}
+	.class_first p {
+		margin: 25px 0;
+	}
+	.s_btn2 {
+		width: 190px;
+	}
+	/* news start */
+	.news_card {
+		margin: 30px 0;
+	}
+	.n_heading hr {
+		margin-top: 10px;
+	}
+	.m_b{
+		margin-bottom: 0px !important;
+	}
+	/* signup start */
+	.sign_text{
+		margin-bottom: 30px;
+		text-align: center;
+	}
+	.sign_form{
+		text-align: center;
+	}
+	.sign_list{
+		margin-top: 30px;
+		text-align: center !important;
+	}
+	.sign_form input {
+		margin-bottom: 15px;
+		width: 300px;
+	}
+	/* signup end */
+	/* contact start */
+	.contact{
+		padding-bottom: 45px;
+	}
+	.quick,
+	.center{
+		text-align: center;
+	}
+	address {
+		margin-bottom: 10px;
+	}
+	.quick{
+		margin-top: 15px;
+	}
+	.quick a{
+		line-height: 30px;
+	}
+	.map{
+		margin-top: 20px;
+		text-align: center;
+	}
+	.map img{
+		height: auto !important;
+	}
+	/* footer start */
+	.footer_text,
+	.footer_list{
+		font-size: 13px;
+		text-align: center;
+	}
+	.footer_text{
+		margin-top: 10px;
+	}
+	/* footer end */
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+	/*common*/
+	.choose, .interest, .course, .class, .news, .signup{
+		padding-top: 60px;
+		padding-bottom: 60px;
+	}
+	.card_body,
+	.choose_first2{
+		text-align: center;
+	}
+	/*header top start*/
+	.h_f_m, .h_f_n, .h_s_r, .h_s_l {
+		font-size: 11px;
+	    -webkit-box-shadow: none;
+	    -moz-box-shadow: none;
+	    box-shadow: none;
+	    padding-top: 8px;
+	    padding-bottom: 8px;
+	}
+	.h_s_r{
+		padding-right: 0px;
+	}
+	.h_s_l{
+		padding-right: 0px;
+	}
+	/*header top end*/
+	/*header start*/
+	.menu li{
+		padding: 0px;
+	}
+	.menu a {
+	    font-size: 14px;
+	    color: #ffffff !important;
+	    padding-left: 0px !important;
+	    padding-right: 0px !important;
+	    border: none;
+	}
+	.d_search_a:hover,
+	.menu a:hover,
+	.nav-link.active2 {
+	    border: none;
+	}
+	.d_search_a{
+		border: none;
+		padding: 0px !important;
+	}
+	.d_search_ul{
+	    top: 150%;
+	    left: 0px;
+	    background-color: transparent;
+	    border: none; 
+	}
+	.f_f{
+		height: 40px;
+	}
+	/*header end*/
+	/*slider start*/
+	.s_h2 {
+	    margin-top: 80px;
+	    font-size: 35px;
+	}
+	.s_p {
+	    font-size: 18px;
+	    margin: 35px 0;
+	}
+	.s_btn {
+	    margin-bottom: 120px;
+	}
+	/*choose start*/
+	.ch_head {
+	    font-size: 30px;
+	    margin-bottom: 15px;
+	}
+	.ch_p {
+	     letter-spacing: 0px; 
+	}
+	.choose_main {
+	    padding-top: 40px;
+	}
+	.c_m_t {
+	    margin-top: 20px;
+	}
+	.common_title {
+	    font-size: 20px;
+	}
+	.common_para {
+		word-spacing: 0px;
+	    letter-spacing: 0px; 
+	}
+	/* interest start */
+	/* course start */
+	address h1,
+	.quick h2,
+	.c_s_content span,
+	.price p,
+	.card_head{
+		font-size: 22px;
+	}
+	.card_p {
+		margin-top: 25px;
+		margin-bottom: 25px;
+	}
+	/* class start */
+	.class_first {
+		margin-top: 20px;
+		text-align: center;
+	}
+	.n_heading h2,
+	.class_first h3 {
+		font-size: 30px;
+	}
+	.c_s_content {
+		text-align: left !important;
+	}
+	.class_second img{
+		width: 100%;
+	}
+	.class_first p {
+		margin: 25px 0;
+	}
+	/* news start */
+	.news_card {
+		margin: 40px 0;
+	}
+	.m_b{
+		margin-bottom: 0px !important;
+	}
+	/* signup start */
+	.sign_text{
+		margin-bottom: 30px;
+		text-align: center;
+	}
+	.sign_form{
+		text-align: center;
+	}
+	.sign_list{
+		margin-top: 40px;
+		text-align: center !important;
+	}
+	/* signup end */
+	/* contact start */
+	.contact{
+		padding-bottom: 50px;
+	}
+	.quick{
+		float: right;
+	}
+	.map{
+		margin-top: 20px;
+		text-align: center;
+	}
+	/* footer start */
+	.footer_text,
+	.footer_list{
+		font-size: 13px;
+		text-align: center;
+	}
+	.footer_text{
+		margin-top: 10px;
+	}
+	/* footer end */
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+	/*common*/
+	.choose, .interest, .course, .class, .news, .signup{
+		padding-top: 70px;
+		padding-bottom: 70px;
+	}
+	.card_body,
+	.choose_first2{
+		text-align: center;
+	}
+	/*header top start*/
+	.h_f_m, .h_f_n, .h_s_r, .h_s_l {
+	    padding-top: 10px;
+	    padding-bottom: 10px;
+	}
+	/*header top end*/
+	/*header start*/
+	.menu li{
+		padding: 0px;
+	}
+	.menu a {
+	    font-size: 14px;
+	    color: #ffffff !important;
+	    padding-left: 0px !important;
+	    padding-right: 0px !important;
+	    border: none;
+	}
+	.d_search_a:hover,
+	.menu a:hover,
+	.nav-link.active2 {
+	    border: none;
+	}
+	.d_search_a{
+		border: none;
+		padding: 0px !important;
+	}
+	.d_search_ul{
+	    top: 150%;
+	    left: 0px;
+	    min-width: 300px;
+	    background-color: transparent;
+	    border: none; 
+	}
+	.f_f{
+		height: 40px;
+	}
+	/*header end*/
+	/*slider start*/
+	.s_h2 {
+	    margin-top: 100px;
+	    font-size: 35px;
+	}
+	.s_p {
+	    font-size: 18px;
+	    margin: 35px 0;
+	}
+	.s_btn {
+	    margin-bottom: 130px;
+	}
+	/*choose start*/
+	.c_m_t {
+	    margin-top: 20px;
+	}
+	.ch_p,
+	.common_para {
+	     letter-spacing: 0px; 
+	}
+	/* interest start */
+	/* course start */
+	.card_p {
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+	/* class start */
+	.class_first {
+		margin-top: 20px;
+		text-align: center;
+	}
+	.c_s_content {
+		text-align: left !important;
+	}
+	.class_second img{
+		width: 100%;
+	}
+	.class_first p {
+		margin: 25px 0;
+	}
+	/* news start */
+	.m_b{
+		margin-bottom: 0px !important;
+	}
+	/* signup start */
+	.sign_text{
+		margin-bottom: 30px;
+		text-align: center;
+	}
+	.sign_form{
+		text-align: center;
+	}
+	.sign_list{
+		text-align: center !important;
+	}
+	/* signup end */
+	/* contact start */
+	.contact{
+		padding-bottom: 55px;
+	}
+	.quick{
+		float: right;
+	}
+	.map{
+		margin-top: 20px;
+		text-align: center;
+	}
+	/* footer start */
+	.footer_text,
+	.footer_list{
+		font-size: 13px;
+	}
+	/* footer end */
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	/*slider start*/
+	.s_h2 {
+	    font-size: 45px;
+	}
+	/*choose start*/
+	/*choose start*/
+	.ch_p {
+	    letter-spacing: -.2px;
+	}
+	.common_para {
+	    letter-spacing: -.6px;
+	}
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+	/*header top start*/
+	.h_s_r{
+		padding-right: 10px;
+	}
+	.h_s_l{
+		padding-right: 5px;
+	}
+	/*header top end*/
+	/*choose*/
+	.ch_p {
+	    letter-spacing: -.2px;
+	}
+	.common_para {
+	    letter-spacing: .5px;
+	}
+	/* course start */
+	.card_p {
+		letter-spacing: -.2px;
+	}
+	/* class start */
+	.class_first p {
+		letter-spacing: -0.1px;
+	}
+	/* news start */
+	.news_text {
+		letter-spacing: 2px;
+	}
+	/* news end */
+}
+
+/*Extra Extra large devices (Extra large desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+	/*header top start*/
+	.h_s_r {
+		padding-right: 9px;
+	}
+	.h_s_l{
+		padding-right: 5px;
+	}
+	/*header top end*/
+	/*course start*/
+	.card_p {
+		letter-spacing: .7px;
+	}
+	/*class start*/
+	.class_second {
+		text-align: right;
+	}
+	.class_first p {
+		letter-spacing: 1px;
+	}
+	/* news start */
+	.news_text {
+		letter-spacing: 2.5px;
+	}
+	/* news end */
+}
