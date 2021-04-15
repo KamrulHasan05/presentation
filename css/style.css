@@ -123,6 +123,23 @@ header{
 }
 /*header end*/
 /*slider start*/
+.carousel-indicators{
+    bottom: 10px;
+}
+.c_s {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #fff;
+    border: 3px solid #00bfa5;
+}
+.c_s:not(:last-child){
+    margin-right: 10px;
+}
+.c_s:focus{
+    outline: none;
+    box-shadow: none;
+}
 .carousel-i {
 	background-image: url(../img/slider1.jpg);
 	background-repeat: no-repeat;
